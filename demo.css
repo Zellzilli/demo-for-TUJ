@@ -1,23 +1,25 @@
 
 html {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     outline: none;
-max-width: 1440px%;
+max-width: auto;
 background-color: white;}
 
 .grid-container {
     display: grid;
     grid-template-columns: 100%;
-    align:center;
+    box-align:center;
 }
 body {
-    background-color:whitesmoke
+    background-color:whitesmoke;
+    max-width: width 980px;
 }
 nav {
+  position:fixed;
 float: left;
 margin-top: -350px;
 background-color: rgba(255, 255, 255, 0.5);
 width: 100%;
-padding-bottom: 50px;
+padding-bottom: 20px;
 padding-top: 20px;
 
 }
@@ -91,17 +93,16 @@ header h2 {
 }
 header p {
   display:block;
-  position:relative
-  margin-bottom: 5px;
+  position:relative;
+  margin-bottom: 20px;
     font-size: 120%;
     color: white;
     padding-left: 50%;
     padding-right: auto;
     padding-top: 20px;
-    margin-top: 45px;
     background-color: rgba(255, 0, 123, 0.58);
     overflow: hidden;
-   
+  position; border-bottom;
 }
 
 .grid-container{
@@ -241,7 +242,6 @@ margin-bottom: 60px;
 }
 
 .gangnam { 
-  flex:100%
   width: auto;
   height: auto;
   margin-right: 50px;
@@ -261,9 +261,13 @@ overflow: hidden;
 overflow: hidden;
 }
 footer { 
-  position: absolute
+  position:border-box;
+  position: relative;
+  padding-left: auto;
+  padding-right: auto;
+  margin-right: 20px;
   bottom: 0; 
-  width: auto;
+  width: 100%;
   height: 100px;
   color: #FFF;
   background: rgb(209, 14, 111);
@@ -273,7 +277,6 @@ footer {
 .sidebar {
   color: whitesmoke;
   float: left;
-  overflow: none;
   max-width: 22%;
   padding-bottom: 950px;
   padding-left: 150px;
